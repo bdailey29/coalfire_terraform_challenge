@@ -1,0 +1,10 @@
+project         = "coalfire_terraform_challenge"
+region          = "us-west-2"
+cidr_block      = "10.1.0.0/16"
+public_subnets  = ["10.1.0.0/24", "10.1.1.0/24"]
+private_subnets = ["10.1.2.0/24", "10.1.3.0/24"]
+azs             = ["us-west-2a", "us-west-2b"]
+vpn_cidr_block  = ["71.227.129.1/32"]
+aws_key_pair    = "blake_coalfire.pem"
+s3_bucket       = "blakecoalfirebucketchallenge"
+folder_name     = ["Images", "Logs"]
